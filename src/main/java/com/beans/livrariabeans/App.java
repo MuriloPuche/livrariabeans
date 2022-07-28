@@ -10,7 +10,7 @@ public class App {
 
         Livro livro = factory.getBean(Livro.class);
         livro.setNome("A Cabana");
-        livro.setID("7DJ32S");
+        livro.setID("7DJ32D");
         livro.setGenero("Drama");
 
 
@@ -18,6 +18,6 @@ public class App {
         autor.setNome("William P. Young");
         livro.exibir();
 
-   
+
     }
 }
